@@ -10,19 +10,19 @@ import {
 export const infoData = [
     {
         icon: <RiUserFill size={20} />,
-        text: "Vagner Mengali",
+        text: "Anderson Lima",
     },
     {
         icon: <RiMailFill size={20} />,
-        text: "contatovagnermengali@gmail.com",
+        text: "anderson.henriquelima@ufpe.br",
     },
     {
         icon: <RiGraduationCapFill size={20} />,
-        text: "Desenvolvedor full stack",
+        text: "Tech Lead",
     },
     {
         icon: <RiHomeFill size={20} />,
-        text: "São Paulo, São Paulo, Brasil",
+        text: "Recife, Brazil",
     },
 ];
 
@@ -31,9 +31,9 @@ export const qualificationData = [
         title: "education",
         data: [
             {
-                school: "Kenzie Academy Brasil",
-                qualification: "Desenvolvedor full stack",
-                years: "mar de 2022 - mar de 2023",
+                
+                qualification: "+70 certifications in the IT World.",
+                
             },
         ],
     },
@@ -41,24 +41,35 @@ export const qualificationData = [
         title: "experience",
         data: [
             {
-                company: "Wicomm",
-                role: "Desenvolvedor de front-end",
-                years: "abri de 2023 - o momento",
+                company: "Webera",
+                role: "Senior Frontend Engineer",
+                years: "2023 may",
             },
             {
-                company: "Kenzie Academy Brasil",
-                role: "Monitor",
-                years: "mai de 2022 - nov de 2022",
+                company: "Dísppar",
+                role: "Chief Operating Officer",
+                years: "2023 march - 2023 may",
             },
             {
-                company: "Fitoxs",
-                role: "Desenvolvedor full-stack",
-                years: "set de 2020 - fev de 2022",
+                company: "Brisanet",
+                role: "Frontend Engineer",
+                years: "2022 june - 2023 may",
             },
             {
-                company: "Fitoxs",
-                role: "Desenvolvedor front-end",
-                years: "fev de 2020 - set de 2020",
+                company: "Corebiz",
+                role: 
+                "Frontend Developer",
+                years: "2021 july - 2022 june",
+            },
+            {
+                company: "Webera",
+                role: "Jr. Frontend Developer",
+                years: "2019 july - 2021 july",
+            },
+            {
+                company: "Cielo",
+                role: "System Analyst",
+                years: "2017 march - 2019 july ",
             },
         ],
     },

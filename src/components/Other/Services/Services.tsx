@@ -14,10 +14,10 @@ const Services = () => {
     <section className="mb-12 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
-        MEUS SERVIÇOS
+        SERVICES
         </h2>
         <div
-          className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24
+          className="grid xl:grid-cols-2 justify-center gap-y-20 xl:gap-y-24
             xl:gap-x-8"
         >
           {servicesData.map((item: any, index: any) => {

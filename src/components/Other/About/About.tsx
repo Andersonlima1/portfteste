@@ -21,7 +21,7 @@ const About = () => {
           className="section-title mb-8 xl:mb-16 text-center 
         mx-auto"
         >
-          SOBRE MIM
+          Who Am I?
         </h2>
         <div className="flex flex-col xl:flex-row">
           <div className="hidden xl:flex flex-1 relative">
@@ -40,26 +40,26 @@ const About = () => {
                 xl:max-w[520px] xl:border border-none"
               >
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
-                  Informação pessoal
+                  Personal Information
                 </TabsTrigger>
                 <TabsTrigger
                   className="w-[162px] xl:w-auto"
                   value="qualifications"
                 >
-                  Qualificações
+                  Qualifications
                 </TabsTrigger>
                 <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
-                  Habilidades
+                  Skills
                 </TabsTrigger>
               </TabsList>
               <div className="text-lg mt-12 xl:mt-8">
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Qualidade de serviço há mais de {new Date().getFullYear() - 2020} anos
+                    Service quality for over  {new Date().getFullYear() - 2017} years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Movido por uma curiosidade insaciável, dedico-me ao ofício da codificação, engajando-me em novos projetos e aprendendo continuamente.
+                    Driven by an insatiable curiosity, I dedicate myself to the craft of coding, engaging in new projects and continuously learning.
                     </p>
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => {
@@ -77,9 +77,9 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col gap-y-2">
-                      <div className="text-primary">Habilidade linguística</div>
+                      <div className="text-primary">Linguistic proficiency</div>
                       <div className="border-b border-border"></div>
-                      <div>Português(Nativo), Inglês(Básico) </div>
+                      <div>Portuguese (Native), English (Advanced), Spanish (Intermediate), Italian (Basic) </div>
                     </div>
                   </div>
                 </TabsContent>
@@ -87,7 +87,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      Minhas qualificações
+                    My qualifications
                     </h3>
                     <div className="grid md:grid-cols-2 gap-y-8">
                       <div className="flex flex-col gap-y-6">
@@ -147,7 +147,7 @@ const About = () => {
                             {getData(qualificationData, "education").title}
                           </h4>
                         </div>
-                        <div className="flex flex-col gap-y-8">
+                       
                           {getData(qualificationData, "education").data.map(
                             (item: any, index: any) => {
                               const { school, qualification, years } = item;
@@ -188,16 +188,16 @@ const About = () => {
                               );
                             }
                           )}
-                        </div>
+                       
                       </div>
                     </div>
                   </div>
                 </TabsContent>
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Meu Conjunto de Habilidades</h3>
+                    <h3 className="h3 mb-8">Skills</h3>
                     <div className="mb-16">
-                      <h4 className="text-xl font-semibold mb-2">Habilidades</h4>
+                    
                       <div className="border-b border-border mb-4"></div>
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         {getData(skillsData, "skills").data.map(
@@ -224,7 +224,7 @@ const About = () => {
                       </div>
                     </div>
                     <h4 className="text-xl font-semibold mb-2 xl:text-left">
-                      Ferramentas
+                      Tools
                     </h4>
                     <div className="border-b border-border mb-4"></div>
                     <div className="flex gap-x-8 justify-center xl:justify-start">

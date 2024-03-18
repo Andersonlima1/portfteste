@@ -29,21 +29,17 @@ const InitialHome = () => {
               className="text-sm uppercase font-semibold
             mb-4 text-primary tracking-[4px]"
             >
-              Desenvolvedor Full Stack
+              Tech Lead
             </div>
-            <h1 className="h1 mb-4">Olá, meu nome é Vagner Mengali</h1>
+            <h1 className="h1 mb-4">Hello! I am Anderson Lima!</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Desenvolvimento full stack com foco pronunciado e entusiasmo pela construção de soluções front-end poderosas.
+            I am a passionate web developer with over 7 years of experience in creating innovative solutions for startups and digital marketing agencies.
             </p>
             <div
               className="flex flex-col gap-y-3 md:flex-row gap-x-3
              mx-auto xl:mx-0 mb-12"
             >
-              <Link href="/contact" aria-label="contact">
-                <Button className="gap-x-2">
-                  Contate-me <RiMailSendFill size={18} />
-                </Button>
-              </Link>
+
               <Link
                 target="_blank"
                 href="https://drive.google.com/file/d/1-kh_Qrf7ef2CdM7-8wrXkWtXv0UfKPdP/view?usp=sharing"
@@ -65,26 +61,26 @@ const InitialHome = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]  animate-up-down-3"
               icon={<RiBriefcase4Fill />}
-              endCountNum={new Date().getFullYear() - 2020}
-              badgeText="Anos de experiência"
+              endCountNum={new Date().getFullYear() - 2017}
+              badgeText="Years of Experience"
             />
 
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]  animate-up-down-2"
               icon={<RiTodoFill />}
               endCountNum={24}
-              badgeText="Projetos Finalizados"
+              badgeText="Projects"
             />
 
             <Badge containerStyles="absolute top-[55%] -right-8 animate-up-down-1"
-              icon={<RiTeamFill />} endCountNum={6}
-              badgeText="Clientes satisfeitos" />
+              icon={<RiTeamFill />} endCountNum={9}
+              badgeText="Satisfied companies" />
             <DevImg
               alt="initial image"
               priority
               containerStyles=" w-[510px] animate-up-down
             h-[510px] relative flex items-center"
-              imgSrc="/developer.webp"
+              imgSrc="/developer.png"
             />
           </div>
         </div>

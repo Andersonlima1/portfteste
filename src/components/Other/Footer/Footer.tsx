@@ -11,7 +11,7 @@ const Footer = () => {
             iconsStyles="text-white/70 text-[20px] hover:text-primary transition-all"
           />
           <div className="text-muted-foreground">
-            Direitos autorais &copy; Vagner Mengali. Todos os direitos reservados
+          Copyright © Anderson Lima. All rights reserved.
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
-import Logo from "@/components/Other/Logo/Logo";
 import Nav from "@/components/Other/Nav/Nav";
 import { MobileNav } from "@/components/Other/Nav/MobileNav";
 
@@ -28,7 +27,7 @@ const Header = () => {
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <Logo />
+     
           <div className="flex items-center gap-x-6">
             <Nav
               containerStyles="hidden xl:flex gap-x-8 items-center"

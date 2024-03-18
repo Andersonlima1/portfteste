@@ -7,20 +7,15 @@ import {
 export const servicesData = [
   {
     icon: <RiCodeSSlashFill size={72} strokeWidth={0.8} />,
-    title: "Desenvolvedor Front-End",
+    title: "Software Engineer",
     description:
-      "Trabalhei em soluções abrangentes que abrangem front-end. Posso criar aplicações robustas e integradas, proporcionando uma experiência de usuário completa",
+      "Experienced Software Engineer specializing in comprehensive solutions. Skilled in crafting robust and integrated applications to deliver a seamless user experience. Proficient in various technologies and frameworks.",
   },
-  {
-    icon: <RiDatabase2Fill size={72} strokeWidth={0.8} />,
-    title: "Desenvolvedor Back-End",
-    description:
-      "Minha paixão pelo desenvolvimento back-end me levou a construir bases sólidas para aplicações, garantindo desempenho, escalabilidade e segurança.",
-  },
+  
   {
     icon: <RiVipDiamondFill size={72} strokeWidth={0.8} />,
-    title: "Identidade pessoal",
+    title: "Personal Identity",
     description:
-      "Meu entusiasmo pelo aprendizado contínuo alimenta minha busca por novos desafios e soluções inovadoras em programação.",
+      "My enthusiasm for continuous learning fuels my pursuit of new challenges and innovative solutions in programming.",
   },
 ];
