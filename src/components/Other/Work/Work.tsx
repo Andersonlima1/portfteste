@@ -23,13 +23,13 @@ const Work = () => {
             className="section-title 
             mb-4"
           >
-            ULTIMOS PROJETOS
+            PROJECTS
           </h2>
           <p className="subtitle mb-8">
-            Explore uma vitrine diversificada de projetos recentes, desde back-end até front-end e desenvolvimento full-stack. Deslize ou clique em Todos os projetos abaixo para ver mais
+          Know the projects I worked on as a developer.
           </p>
           <Link href="/projects" aria-label={"projectos"}>
-            <Button>Todos os projetos</Button>
+            <Button>All projects</Button>
           </Link>
         </div>
         <div
