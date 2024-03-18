@@ -6,7 +6,7 @@ export interface ProjectCardInterface {
         name: string;
         description: string;
         link: string;
-        github: string;
+       
     }
     specialStyle?: boolean;
 }

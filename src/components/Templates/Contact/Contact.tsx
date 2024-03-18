@@ -41,11 +41,11 @@ const Contact = () => {
           >
             <div className="flex items-center gap-x-8">
               <RiMailFill size={18} className="text-primary" />
-              <div>contatovagnermengali@gmail.com</div>
+              <div>anderson.henriquelima@ufpe.br</div>
             </div>
             <div className="flex items-center gap-x-8">
               <RiHomeFill size={18} className="text-primary" />
-              <div>São Paulo, São Paulo, Brasil</div>
+              <div>Recife, Brazil</div>
             </div>
           </div>
           <Form />

@@ -1,58 +1,86 @@
 export const projectData = [
   {
-    image: "/portfolio.webp",
-    category: "front end",
-    name: "Portfolio",
-    description: "Um site centralizado que apresenta minhas informações pessoais, qualificações, portfólio de projetos e detalhes sobre mim.",
-    link: "https://portfolio-vagner-mengali-vagnermengali.vercel.app/",
-    github: "https://github.com/vagnermengali/portfolio-vagner-mengali"
+    image: "/MAC.png",
+    category: "",
+    name: "Mac Cosmetics",
+    description: "Leading cosmetics brand known for vibrant colors & high-quality products.",
+    link: "https://www.maccosmetics.com.br/",
+    
   },
   {
-    image: "/yrprey.webp",
-    category: "front end",
-    name: "YRprey",
-    description: "Um site modelo que simula diversas vulnerabilidades e falhas de segurança, desafiando desenvolvedores a testar suas habilidades na detecção e correção desses problemas em sistemas web.",
-    link: "https://yrprey-git-main-vagnermengali.vercel.app/",
-    github: "https://github.com/vagnermengali/yrprey"
+    image: "/webera.png",
+    category: "",
+    name: "Webera",
+    description: "A technology company focused on innovative solutions for various sectors, including software, web development, and IT consulting.",
+    link: "https://webera.com/"
+   
   },
   {
-    image: "/portfolio-green.webp",
-    category: "front end",
-    name: "Portfolio",
-    description: "Um projeto desenvolvido com foco no aprendizado de tecnologias como Tailwind CSS, Next.js, TypeScript e técnicas de animação web",
-    link: "https://developer-green-portfolio-vagnermengali.vercel.app/",
-    github: "https://github.com/vagnermengali/developer-green-portfolio"
+    image: "/decathlon.png",
+    category: "",
+    name: "Decathlon",
+    description: "Global sports retail chain providing a wide range of sports goods.",
+    link: "https://www.decathlon.com.br/"
+    
   },
   {
-    image: "/dogma.webp",
-    category: "front end",
-    name: "Dogma",
-    description: "Um website dedicado à empresa de construção, fornecendo informações sobre serviços, projetos concluídos e contatos.",
-    link: "https://www.grupodogma.site/",
-    github: "https://github.com/vagnermengali/dogma"
+    image: "/agibank.png",
+    category: "",
+    name: "Agibank",
+    description: "Brazilian digital bank offering diverse financial services since 1999.",
+    link: "https://agibank.com.br/",
+    
   },
   {
-    image: "/portfolio-blue.webp",
-    category: "front end",
-    name: "Portfolio",
-    description: "Um projeto educacional para explorar e praticar o uso de tecnologias modernas como Tailwind CSS, Next.js, TypeScript e implementações de animações para web.",
+    image: "/cielo.png",
+    category: "",
+    name: "Cielo",
+    description: "Leading electronic payment tech company in Latin America.",
+    link: "https://www.cielo.com.br/",
+    
+  },
+  {
+    image: "/brisanet.png",
+    category: "",
+    name: "Brisanet",
+    description: "Internet & telecom provider in Northeast Brazil, offering high-speed services.",
+    link: "https://www.brisanet.com.br/",
+    
+  },
+  {
+    image: "/allergan.png",
+    category: "",
+    name: "Allergan",
+    description: "Global biotech & pharma company, known for innovations in healthcare.",
+    link: "https://www.whirlpool.com/",
+    
+  },
+  {
+    image: "/whirpool.png",
+    category: "",
+    name: "Whirpool",
+    description: "Global home appliances manufacturer, renowned for innovation & sustainability.",
     link: "https://developer-blue-portfolio-vagnermengali.vercel.app/",
-    github: "https://github.com/vagnermengali/developer-blue-portfolio"
+  
   },
   {
-    image: "/api.webp",
-    category: "back end",
-    name: "User crud ",
-    description: "Este é um crud de usuário que visa facilitar o acesso com funcionalidades básicas de um usuário e login.",
-    link: "",
-    github: "https://github.com/vagnermengali/user-crud"
+    image: "/mototalk.png",
+ 
+    name: "Mototalk ",
+    description: "Specialized in radio communication solutions for various sectors.",
+    link: "https://us.mototalk.com/",
+
   },
   {
-    image: "/scanner-cnab.webp",
-    category: "full stack",
-    name: "Scanner CNAB",
-    description: "Este é a aplicação Scanner CNBA - Que tem fins de facilitar o escaneamento de documentos CNAB.txt",
-    link: "https://scanner-cnab-vagnermengali.vercel.app/",
-    github: "https://github.com/vagnermengali/developer-blue-portfolio"
+    image: "/LUMA.png",
+ 
+    name: "Luma Health ",
+    description: "Healthcare tech company facilitating patient-provider communication.",
+    link: "https://www.lumahealth.io/",
+  
   },
+ 
+
+  
+
 ];
